@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  app:
+    build:
+      context: .
+      target: dev
+    image: lapazcloud/website
+    ports:
+      - 4567:4567
+    environment:
+      - SASS_CACHE_LOCATION=/sass-cache
+    volumes:
+      - ./:/app
+      - sass-cache:/sass-cache
+volumes:
+  sass-cache:
