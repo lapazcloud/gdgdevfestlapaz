@@ -1,5 +1,21 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 body {
   cursor: default;
+}
+
+img.devfest-logo {
+  min-height: 3rem;
+}
+
+.navbar-burger {height: 4.1rem;}
+
+section.devfest {
+  background-image: url("/images/CloudDevFestSection.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero.is-primary {
 }

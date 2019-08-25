@@ -2,143 +2,142 @@
 title: GDG Cloud DevFest La Paz 2019
 ---
 
-<nav class="navbar is-fixed-top is-info role="navigation" aria-label="main navigation"">
-  <div class="navbar-end">
-    <a href="/" class="navbar-item">Inicio</a>
-    <a href="/" class="navbar-item">Exponentes</a>
-    <a href="/" class="navbar-item">Programa</a>
-    <a href="/" class="navbar-item">Talleres</a>
-    <a href="/" class="navbar-item">Preguntas frecuentes</a>
-    <div class="navbar-item">
-      <a href="/" class="button is-danger is-rounded">Entradas</a>
+<nav class="navbar is-fixed-top" is-info role="navigation" aria-label="main navigation"">
+  <div class="navbar-brand">
+    <a href="/" class="navbar-item">
+      <img class="devfest-logo" src="/images/CloudDevFestLogo.png">
+    </a>
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <a href="/" class="navbar-item">Inicio</a>
+      <a href="#call-for-speakers" class="navbar-item">Call for Speakers</a>
+      <!-- <a href="/" class="navbar-item">Programa</a>
+      <a href="/" class="navbar-item">Talleres</a> -->
+      <a href="#faq" class="navbar-item">Preguntas frecuentes</a>
+      <div class="navbar-item">
+        <a href="#entradas" class="button is-danger is-rounded">Entradas</a>
+      </div>
     </div>
   </div>
 </nav>
 
-<section class="hero is-info is-medium">
+<section class="devfest hero is-primary is-medium">
   <div class="hero-body">
-    <div class="container has-text-centered">
-      <h2 class="subtitle">GDG Cloud DevFest La Paz 2019</h2>
-      <h1 class="title">La comunidad más grande de Cloud, DevOps y tecnologías web en La Paz.</h1>
-      <h2 class="subtitle">12 de Octubre, 2019 / 3:00pm</h2>
-      <h2 class="subtitle">Link CoWork / La Paz, BO</h2>
-      <a class="button is-medium is-danger is-rounded" href="/">Comprar Entradas</a>
+    <div class="container">
+      <h1 class="title is-2">GDG Cloud DevFest La Paz 2019</h1>
+      <h2 class="subtitle">Una conferencia dedicada a talleres y charlas sobre tecnologías Cloud, DevOps y aplicaciones web.</h2>
+      <h3 class="subtitle has-text-weight-bold">11 de Octubre / Lugar a definir</h3>
+      <a class="button is-large is-danger is-rounded" href="#entradas">Entradas</a>
     </div>
   </div>
 </section>
 
-<section class="hero">
-  <div class="hero-body">
+<section class="hero is-medium" id="call-for-speakers">
+  <div class="hero-body has-text-centered">
     <div class="container">
-      <h1 class="title">Exponentes destacados</h1>
+      <h1 class="title">¡Call for Speakers abierto!</h1>
+      <p class="subtitle">¿Tienes algún tema que quieras exponer? Estamos interesados en estos tópicos:</p>
 
-      <div class="columns">
+      <div class="columns has-text-left">
+
         <div class="column">
           <div class="card">
-            <div class="card-image">
-              <figure class="image is-square"><img src="https://via.placeholder.com/150" alt=""></figure></div>
             <div class="card-content">
-              <h1 class="title">Seymour A. Ces</h1>
-              <h2 class="subtitle">Company, Inc.</h2>
+                <h2 class="title">Infraestructura y automatización</h2>
+                <div class="content">
+                  <ul>
+                    <li>Proveedores cloud como Google Cloud, AWS o DigitalOcean</li>
+                    <li>Datacenters Físicos, OpenStack y otras soluciones locales</li>
+                    <li>Terraform, Ansible, Puppet, Packer y herramientas de Infraestructura como código</li>
+                    <li>Docker, Bash y Powershell scripting</li>
+                  </ul>
+                </div>
             </div>
           </div>
         </div>
+
         <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-square"><img src="https://via.placeholder.com/150" alt=""></figure></div>
-            <div class="card-content">
-              <h1 class="title">Seymour A. Ces</h1>
-              <h2 class="subtitle">Company, Inc.</h2>
-            </div>
-          </div>
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="title">Integración y entrega contínua</h2>
+                    <div class="content">
+                      <ul>
+                        <li>Sistemas de CI como Jenkins, Bamboo, GoCD, Drone, Travis y otros</li>
+                        <li>Uso de Git, GitLab, GitHub</li>
+                        <li>Implementando automatización y/control de calidad con DevOps</li>
+                        <li>Code Coverage con Code Clover, Jacoco y otros</li>
+                        <li>GitOps, Chatbots y otras automatizaciones</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
         </div>
+
         <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-square"><img src="https://via.placeholder.com/150" alt=""></figure></div>
-            <div class="card-content">
-              <h1 class="title">Seymour A. Ces</h1>
-              <h2 class="subtitle">Company, Inc.</h2>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-square"><img src="https://via.placeholder.com/150" alt=""></figure></div>
-            <div class="card-content">
-              <h1 class="title">Seymour A. Ces</h1>
-              <h2 class="subtitle">Company, Inc.</h2>
-            </div>
-          </div>
+            <div class="card">
+                <div class="card-content">
+                    <h2 class="title">Orquestración, monitoreo y seguridad web</h2>
+                    <div class="content">
+                      <ul>
+                        <li>Orquestradores como Kubernetes, Docker Swarm, Mesosphere, Nomad y otros</li>
+                        <li>Sistemas de monitoreo como Prometheus, Grafana y ELK </li>
+                        <li>Utilidades cloud como Consul, Envoy, CoreDNS, Helm y etcd</li>
+                        <li>Seguridad para contenedores</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
         </div>
       </div>
 
+      <button class="button is-large is-rounded is-danger">Postula aquí</button>
     </div>
   </div>
 </section>
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <h1 class="title">Entradas</h1>
-      <div class="columns">
-        <div class="column is-4 is-offset-2">
-          <div class="card">
-            <div class="card-content">
-              <h1 class="subtitle">General</h1>
-              <h2 class="title">70Bs. por persona</h2>
-              <ul>
-                <li>Acceso a todas las charlas</li>
-                <li>Dos laboratorios prácticos</li>
-                <li>Refrigerio y bebidas</li>
-                <li>Certificado Digital</li>
-                <li>Polera y Souvenir</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="column is-4">
-          <div class="card">
-            <div class="card-content">
-              <h1 class="subtitle">General + Talleres</h1>
-              <h2 class="title">100Bs. por persona</h2>
-              <ul>
-                  <li>Acceso a todas las charlas</li>
-                  <li>Dos laboratorios prácticos</li>
-                  <li>Refrigerio y bebidas</li>
-                  <li>Certificado Digital</li>
-                  <li>Polera y Souvenir</li>
-                  <li>Networking con Speakers</li>
-                </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="hero is-medium is-dark">
-  <div class="hero-body">
-    <div class="container has-text-white-ter">
-      <h1>Locación</h1>
-    </div>
-  </div>
-</section>
-
-<section class="hero is-medium">
+<section class="hero is-light is-medium" id="faq">
   <div class="hero-body">
     <div class="container">
-      <h2>Auspiciadores</h2>
+      <div class="content">
+      <h1>Preguntas frecuentes</h1>
+
+      <h3>1. ¿Qué es un GDG DevFest?</h3>
+      <p>Es un evento de escala mayor organizado por comunidades tecnológicas locales asociadas pero no exclusivas a productos de Google. Ofrece sesiones y charlas con expositores para exponer e intercambiar ideas entre desarrolladores y personas afines a la tecnología.</p>
+
+      <h3>2. ¿Quiénes organizan el GDG Cloud DevFest La Paz?</h3>
+      <p>El grupo La Paz Cloud está a cargo de la organización de este evento. Establecido el 2016, La Paz Cloud ha estado compartiendo conocimiento y usos prácticos de tecnología en charlas técnicas, publicando código práctico y fácil de usar.</p>
+
+      <h3>3. ¿Dónde se realizará el evento?</h3>
+      <p>El lugar del evento se anunciará en Septiembre. Estamos buscando un lugar con buen WiFi y que pueda acomodar a todos los asistentes.</p>
+
+      <h3>3. ¿Qué es un Call for Speakers?</h3>
+      <p>Es una invitación abierta para que cualquier profesional o estudiante pueda exponer un tema relacionado al evento. Puedes postular aquí.</p>
+
+      <h3>4. Aún tengo dudas.</h3>
+      <p>Si aún tienes preguntas escríbenos a <a class="has-text-danger has-text-weight-bold" href="mailto:contacto@lapazcloud.com">contacto@lapazcloud.com</a>.</p>
+    </div>
     </div>
   </div>
 </section>
 
-<footer class="footer">
-  <div class="content has-text-centered">
+<section class="hero is-info is-medium" id="entradas">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">Las entradas estarán disponibles desde Septiembre</h1>
+      <h2 class="subtitle">Incluirán el ingreso al evento, talleres, souvenirs y refrigerios.</h2>
+      <button class="button is-large is-rounded">Avísame cuando salgan</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer has-background-dark has-text-light has-text-centered">
+  <div class="content">
     <p>&copy; 2019 La Paz Cloud</p>
   </div>
 </footer>
