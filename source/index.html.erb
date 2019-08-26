@@ -1,14 +1,14 @@
 ---
-title: GDG Cloud DevFest La Paz 2019
+title: Un evento para hablar de tecnologías Cloud, DevOps y web
 ---
 
-<section class="devfest hero is-primary is-medium">
+<section class="devfest hero is-medium is-success">
   <div class="hero-body">
     <div class="container">
       <h1 class="title is-2">GDG Cloud DevFest La Paz 2019</h1>
-      <h2 class="subtitle">Un día dedicado a talleres y charlas sobre tecnologías Cloud, DevOps y aplicaciones web.</h2>
+      <h2 class="subtitle">Un evento dedicado a exposiciones y talleres sobre tecnologías Cloud, DevOps y Aplicaciones Web.</h2>
       <h3 class="subtitle has-text-weight-bold">11 de Octubre / Lugar a definir</h3>
-      <a class="button is-large is-danger is-rounded" href="#entradas">Entradas</a>
+      <a class="button is-large is-danger is-rounded" href="#call-for-speakers">Postula una charla</a>
     </div>
   </div>
 </section>
@@ -45,7 +45,7 @@ title: GDG Cloud DevFest La Paz 2019
                       <ul>
                         <li>Sistemas de CI como Jenkins, Bamboo, GoCD, Drone, Travis y otros</li>
                         <li>Uso de Git, GitLab, GitHub</li>
-                        <li>Implementando automatización y/control de calidad con DevOps</li>
+                        <li>Implementando automatización y/o control de calidad con DevOps</li>
                         <li>Code Coverage con Code Clover, Jacoco y otros</li>
                         <li>GitOps, Chatbots y otras automatizaciones</li>
                       </ul>
@@ -71,7 +71,7 @@ title: GDG Cloud DevFest La Paz 2019
         </div>
       </div>
 
-      <a href="/postula/"><button class="button is-large is-rounded is-danger" data-target="modal" aria-haspopup="true">Postula aquí</button></a>
+      <a href="/postula/"><button class="button is-large is-rounded is-danger">Postula aquí</button></a>
     </div>
   </div>
 </section>
@@ -86,13 +86,13 @@ title: GDG Cloud DevFest La Paz 2019
       <p>Es un evento de escala mayor organizado por comunidades tecnológicas locales asociadas pero no exclusivas a productos de Google. Ofrece sesiones y charlas con expositores para exponer e intercambiar ideas entre desarrolladores y personas afines a la tecnología.</p>
 
       <h3>2. ¿Quiénes organizan el GDG Cloud DevFest La Paz?</h3>
-      <p>El grupo La Paz Cloud está a cargo de la organización de este evento. Establecido el 2016, La Paz Cloud ha estado compartiendo conocimiento y usos prácticos de tecnología en charlas técnicas, publicando código práctico y fácil de usar.</p>
+      <p>La comunidad <a target="_blank" href="https://www.facebook.com/lapazcloud/" class="has-text-danger has-text-weight-bold">La Paz Cloud</a> está a cargo de la organización de este evento. Establecido el 2016, La Paz Cloud ha estado <a target="_blank" href="https://www.meetup.com/Docker-La-Paz/" class="has-text-danger has-text-weight-bold">compartiendo conocimiento</a> y <a target="_blank" href="https://www.meetup.com/La-Paz-HashiCorp-User-Group/" class="has-text-danger has-text-weight-bold">usos prácticos</a> de tecnología web con charlas técnicas, <a target="_blank" href="https://github.com/lapazcloud" class="has-text-danger has-text-weight-bold">publicando código</a> fácil de usar.</p>
 
       <h3>3. ¿Dónde se realizará el evento?</h3>
       <p>El lugar del evento se anunciará en Septiembre. Estamos buscando un lugar con buen WiFi y que pueda acomodar a todos los asistentes.</p>
 
       <h3>3. ¿Qué es un Call for Speakers?</h3>
-      <p>Es una invitación abierta para que cualquier profesional o estudiante pueda exponer un tema relacionado al evento. Puedes postular aquí.</p>
+      <p>Es una invitación abierta para que cualquier profesional o estudiante pueda exponer un tema relacionado al evento. <a href="/postula/" class="has-text-danger has-text-weight-bold">Puedes postular aquí</a>.</p>
 
       <h3>4. Aún tengo dudas.</h3>
       <p>Si aún tienes preguntas escríbenos a <a class="has-text-danger has-text-weight-bold" href="mailto:contacto@lapazcloud.com">contacto@lapazcloud.com</a>.</p>
@@ -106,7 +106,24 @@ title: GDG Cloud DevFest La Paz 2019
     <div class="container has-text-centered">
       <h1 class="title">Las entradas estarán disponibles desde Septiembre</h1>
       <h2 class="subtitle">Incluirán el ingreso al evento, talleres, souvenirs y refrigerios.</h2>
-      <button class="button is-large is-rounded is-light">Avísame cuando salgan</button>
+
+      <div class="columns">
+        <div class="column is-4 is-offset-4">
+          <form action="/notificacion/" name="notificaciones" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <p class="is-invisible">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+              </p>
+            <div class="field has-addons is-fullwidth">
+              <div class="control is-expanded">
+                <input required type="email" name="email" class="input is-large" placeholder="Avísarme por email">
+              </div>
+              <div class="control">
+                <button type="submit" class="button is-primary is-large">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </section>
