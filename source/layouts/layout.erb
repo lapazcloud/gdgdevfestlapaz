@@ -11,6 +11,35 @@
     <%= javascript_include_tag "site" %>
   </head>
   <body class="has-navbar-fixed-top">
+  <nav class="navbar is-fixed-top" is-info role="navigation" aria-label="main navigation"">
+  <div class="navbar-brand">
+    <a href="/" class="navbar-item">
+      <img class="devfest-logo" src="/images/CloudDevFestLogo.png">
+    </a>
+    <a role="button" class="navbar-burger burger" data-target="navMenu" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+  </div>
+  <div class="navbar-menu" id="navMenu">
+    <div class="navbar-end">
+      <a href="/" class="navbar-item">Inicio</a>
+      <a href="/#call-for-speakers" class="navbar-item">Call for Speakers</a>
+      <!-- <a href="/" class="navbar-item">Programa</a>
+      <a href="/" class="navbar-item">Talleres</a> -->
+      <a href="/#faq" class="navbar-item">Preguntas frecuentes</a>
+      <div class="navbar-item">
+        <a href="/#entradas" class="button is-danger is-rounded">Entradas</a>
+      </div>
+    </div>
+  </div>
+</nav>
     <%= yield %>
+    <footer class="footer has-background-dark has-text-light has-text-centered">
+    <div class="content">
+      <p>&copy; 2019 La Paz Cloud</p>
+    </div>
+  </footer>
   </body>
 </html>

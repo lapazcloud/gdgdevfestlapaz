@@ -12,10 +12,20 @@ img.devfest-logo {
 .navbar-burger {height: 4.1rem;}
 
 section.devfest {
+  background-color: #0F9D58;
+  background-position: center center;
   background-image: url("/images/CloudDevFestSection.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.button.is-danger {
+  background-color: #EA4335;
+}
+
 .hero.is-primary {
+}
+
+.hero#entradas {
+  background-color: #4285F4;
 }
