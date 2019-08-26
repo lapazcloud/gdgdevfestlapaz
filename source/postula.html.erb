@@ -12,24 +12,24 @@ title: GDG Cloud DevFest La Paz 2019
                   <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                 </p>
                 <div class="field">
-                    <label class="label">Nombre</label>
-                    <input class="input" type="text" name="nombre" />
+                    <label class="label">Nombre
+                    <input class="input" type="text" name="name" required autofocus /></label>
                   </div>
                 <div class="field">
-                  <label class="label">Email</label>
-                  <input class="input" type="email" name="email" />
+                  <label class="label">Email
+                  <input class="input" type="email" name="email" required /></label>
                 </div>
                 <div class="field">
-                    <label class="label">Celular</label>
-                    <input class="input" type="number" name="celular" />
+                    <label class="label">Celular
+                    <input class="input" type="tel" name="celular" required /></label>
                   </div>
                 <div class="field">
-                    <label class="label">Empresa o universidad</label>
-                    <input class="input" type="email" name="compania" />
+                    <label class="label">Empresa o universidad
+                    <input class="input" type="text" name="compania" required /></label>
                 </div>
                 <div class="field">
-                    <label class="label">Cargo, posición o año de carrera</label>
-                    <input class="input" type="email" name="cargo" />
+                    <label class="label">Cargo, posición o año de carrera
+                    <input class="input" type="text" name="cargo" required /></label>
                 </div>
                 <div class="field">
                     <label class="label">Considerando tu experiencia personal o profesional, ¿Qué temas considerarías exponer o compartir? (Selecciona todos los que apliquen)</label>
@@ -63,12 +63,12 @@ title: GDG Cloud DevFest La Paz 2019
                             </label>
                     </div>
                 <div class="field">
-                  <label class="label">¿Cuál es el tema que prefieres exponer? (No necesita ser uno de los anteriores)</label>
-                  <textarea class="textarea" name="tema"></textarea>
+                  <label class="label">¿Cuál es el tema que prefieres exponer? (No necesita ser uno de los anteriores)
+                  <textarea class="textarea" name="tema" required></textarea></label>
                 </div>
                 <div class="field">
-                    <label class="label">Incluye algún video o enlace de alguna charla anterior tuya</label>
-                    <input class="input" type="email" name="charla-anterior" />
+                    <label class="label">Incluye un enlace de alguna charla anterior tuya (video o web del evento)
+                    <input class="input" type="text" name="charla-anterior" required /></label>
                 </div>
                 <div class="field">
                   <div class="control">
