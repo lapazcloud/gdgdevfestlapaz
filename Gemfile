@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'bundler', '2.0.2'
 gem 'mini_racer'
 gem "middleman-minify-html"
 gem "middleman-imageoptim", :git => "https://github.com/plasticine/middleman-imageoptim", :branch => "master"
