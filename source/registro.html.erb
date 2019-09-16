@@ -99,7 +99,7 @@ title: Regístrate para el GDG Cloud DevFest La Paz 2019
 					<% data.entradas.each do |t| %>
 						<div class="field">
 							<label class="radio">
-								<input type="radio" name="ticket" value="<%= t.titulo %>">
+								<input required type="radio" name="ticket" value="<%= t.titulo %>">
 								<%= t.titulo %> - <strong><%= t.precio %></strong>
 							</label>
 							<p class="help"><%= t.descripcion %></p>
