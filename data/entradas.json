@@ -1,0 +1,20 @@
+[
+  {
+    "id": "general",
+    "titulo": "Entrada General",
+    "precio": "70 Bs.",
+    "descripcion": "Acceso a todas las exposiciones, dos souvenirs, dos refrigerios y networking con auspiciadores y expositores."
+  },
+  {
+    "id": "kubernetes",
+    "titulo": "Entrada General + Taller de Kubernetes y TensorFlow",
+    "precio": "150 Bs.",
+    "descripcion": "Acceso a un taller práctico de Kubernetes y TensorFlow."
+  },
+  {
+    "id": "gitlab",
+    "titulo": "Entrada General + Taller de APIs con Kong",
+    "precio": "120 Bs.",
+    "descripcion": "Acceso a un taller práctico para estructurar APIs y microservicios usando Kong."
+  }
+]

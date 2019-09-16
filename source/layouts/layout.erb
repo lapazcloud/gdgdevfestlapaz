@@ -1,13 +1,13 @@
 <!doctype html>
-<html>
+<html class="has-navbar-fixed-top">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= current_page.data.title || "Middleman" %> | GDG Cloud DevFest La Paz 2019</title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
@@ -26,34 +26,39 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
   </head>
-  <body class="has-navbar-fixed-top">
-  <nav class="navbar is-fixed-top" is-info role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a href="/" class="navbar-item">
-      <img class="devfest-logo" src="/images/CloudDevFestLogo.png">
-    </a>
-    <a role="button" class="navbar-burger burger" data-target="navMenu" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-  </div>
+  <body>
+  <nav class="navbar has-shadow is-fixed-top is-spaced" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a href="/" class="navbar-item">
+            <img src="/images/CloudDevFestLogo.png">
+        </a>
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
   <div class="navbar-menu" id="navMenu">
     <div class="navbar-end">
       <a href="/" class="navbar-item">Inicio</a>
-      <a href="/#call-for-speakers" class="navbar-item">Call for Speakers</a>
-      <!-- <a href="/" class="navbar-item">Programa</a>
-      <a href="/" class="navbar-item">Talleres</a> -->
+      <!-- <a href="/#speakers" class="navbar-item">Expositores</a> -->
       <a href="/#location" class="navbar-item">Locación</a>
       <a href="/#faq" class="navbar-item">Preguntas frecuentes</a>
       <a href="/#sponsors" class="navbar-item">Auspiciadores</a>
       <div class="navbar-item">
-        <a href="/#entradas" class="button is-danger is-rounded">Entradas</a>
+        <a href="/registro/" class="button is-danger is-rounded">
+            <span class="icon">
+                <i class="fas fa-ticket-alt"></i>
+            </span>
+            <span>Entradas</span>
+        </a>
       </div>
     </div>
   </div>
 </nav>
     <%= yield %>
+
+
     <footer class="footer has-background-dark has-text-light has-text-centered">
     <div class="content">
       <p>&copy; 2019 <br> Hecho por la <a class="has-text-white has-text-weight-bold" target="_blank" href="https://github.com/lapazcloud">comunidad La Paz Cloud</a></p>

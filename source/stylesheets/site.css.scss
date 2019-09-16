@@ -249,18 +249,15 @@ body {
   font-family: 'Google Sans', Sans-Serif;
 }
 
-img.devfest-logo {
-  min-height: 3rem;
-}
-
-.navbar-burger {height: 4.1rem;}
-
 section.devfest {
-  background-color: #0F9D58;
   background-position: center center;
   background-image: url("/images/CloudDevFestSection.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.with-left-border {
+  border-left: 1px solid #fff;
 }
 
 .button.is-danger {
