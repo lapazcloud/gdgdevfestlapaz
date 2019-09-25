@@ -11,7 +11,7 @@
     "time": "17:30 - 19:00",
     "speaker": "Fernando Silva",
     "cost": "150 Bs.",
-    "image": "https://bulma.io/images/placeholders/128x128.png",
+    "image": "/images/fernando.jpg",
     "title": "CNN and the fantabulous emancipation of one TensorFlow"
   }
 ]
