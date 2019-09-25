@@ -1,0 +1,63 @@
+[
+  {
+    "time": "14:30",
+    "speaker": "Alfredo Callizaya",
+    "image": "https://bulma.io/images/placeholders/128x128.png",
+    "title": "Fabric y Bash automatización de tareas en remoto"
+  },
+  {
+    "time": "15:00",
+    "speaker": "Marco Ruben Leonardini Gutierrez",
+    "image": "https://bulma.io/images/placeholders/128x128.png",
+    "title": "GitLab y conceptos de integración y entrega contínua"
+  },
+  {
+    "time": "15:30",
+    "speaker": "Marco Avalos",
+    "image": "https://bulma.io/images/placeholders/128x128.png",
+    "title": "Pruebas automáticas con Selenium"
+  },
+  {
+    "time": "16:00",
+    "speaker": "Juan Pablo Poma Chuquimia",
+    "image": "/images/jpp.jpg",
+    "title": "Entendiendo qué es la Clusterización"
+  },
+  {
+    "time": "16:30",
+    "title": "Break y refrigerio"
+  },
+  {
+    "time": "17:00",
+    "speaker": "Dennis Ruiz",
+    "image": "/images/dennis.png",
+    "title": "Automatización de infraestructura con Terraform"
+  },
+  {
+    "time": "17:30",
+    "speaker": "Sergio Gabriel Guillen Mantilla",
+    "image": "/images/sergio.jpg",
+    "title": "Carrier y Doloris, escalando un ataque al estilo DevOps"
+  },
+  {
+    "time": "18:00",
+    "speaker": "Miguel Callejas",
+    "image": "/images/miguel.jpg",
+    "title": "Ingeniería del caos y como aplicarla en ambientes con Kubernetes/Docker"
+  },
+  {
+    "time": "18:30",
+    "speaker": "Franz Marcos Mejia Luna",
+    "image": "/images/franz.jpg",
+    "title": "Complex Deployment in Kubernetes cluster created on Google Cloud Platform"
+  },
+  {
+    "time": "19:00",
+    "title": "Break y refrigerio"
+  },
+  {
+    "time": "19:15",
+    "image": "/images/CloudDevFestSection.jpg",
+    "title": "Panel de discusión: el estado y futuro de las tecnologías cloud en Bolivia"
+  }
+]

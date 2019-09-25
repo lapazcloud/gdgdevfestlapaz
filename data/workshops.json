@@ -1,0 +1,17 @@
+[
+  {
+    "time": "15:00 - 16:30",
+    "speaker": "Ever Favio Argollo",
+    "cost": "120 Bs.",
+    "image": "/images/ever.jpg",
+    "title": "Armando APIs con Kong",
+    "description": "qwerty"
+  },
+  {
+    "time": "17:30 - 19:00",
+    "speaker": "Fernando Silva",
+    "cost": "150 Bs.",
+    "image": "https://bulma.io/images/placeholders/128x128.png",
+    "title": "CNN and the fantabulous emancipation of one TensorFlow"
+  }
+]
