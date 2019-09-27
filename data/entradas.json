@@ -13,8 +13,8 @@
   },
   {
     "id": "gitlab",
-    "titulo": "Entrada General + Taller de APIs con Kong",
+    "titulo": "Entrada General + Administración de web services con Kong API Gateway",
     "precio": "120 Bs.",
-    "descripcion": "Acceso a un taller práctico para estructurar APIs y microservicios usando Kong."
+    "descripcion": "Acceso a un taller práctico para estructurar APIs y servicios web usando Kong como API Gateway."
   }
 ]

@@ -4,8 +4,10 @@
   "description": "",
   "main": "submission-created.js",
   "dependencies": {
+    "@sanity/client": "^0.142.0",
     "moment": "^2.24.0",
-    "postmark": "^2.2.9"
+    "postmark": "^2.2.9",
+    "supports-color": "^7.1.0"
   },
   "devDependencies": {},
   "scripts": {

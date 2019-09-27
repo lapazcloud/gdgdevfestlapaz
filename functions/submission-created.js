@@ -1,8 +1,17 @@
 const postmark = require("postmark");
 const moment = require('moment');
+const sanityClient = require('@sanity/client')
+
 const client = new postmark.ServerClient(
 	process.env.POSTMARK_API_KEY
 );
+
+const sanity = sanityClient({
+  projectId: '1oy8cb2q',
+  dataset: 'event',
+  token: process.env.SANITY_API_KEY
+})
+
 const entrada_general_qr = process.env.ENTRADA_GENERAL_QR
 const entrada_kong_qr = process.env.ENTRADA_KONG_QR
 const entrada_kubernetes_qr = process.env.ENTRADA_KUBERNETES_QR
@@ -49,6 +58,11 @@ exports.handler = async function (event, context, callback) {
 			"registration_qr": registration_qr
 		}
 	});
+
+	// Save to Sanity here
+	sanity.create({ _type: 'registered', ...payload.data }).then(res => {
+		console.log(`New registration! ID is ${res._id}`)
+	})
 
 	callback(null, {
 		statusCode: 200,
