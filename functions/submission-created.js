@@ -1,6 +1,7 @@
 const postmark = require("postmark");
 const moment = require('moment');
 const sanityClient = require('@sanity/client')
+const promo = "x-2NHZnEah"
 
 const client = new postmark.ServerClient(
 	process.env.POSTMARK_API_KEY
@@ -43,10 +44,16 @@ exports.handler = async function (event, context, callback) {
 			break;
 	}
 
+	// Validate code here
+	if (payload.data.promo == promo) {
+		var templateId = 14110948;
+	} else {
+		var templateId = 13748320;
+	}
 
 	// Send the email here
 	client.sendEmailWithTemplate({
-		TemplateId: 13748320,
+		TemplateId: templateId,
 		From: "devfest@lapazcloud.com",
 		To: payload.email,
 		TemplateModel: {
