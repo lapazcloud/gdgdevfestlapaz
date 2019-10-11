@@ -46,18 +46,31 @@
       <a href="/#location" class="navbar-item">Locación</a>
       <a href="/#faq" class="navbar-item">Preguntas frecuentes</a>
       <a href="/#sponsors" class="navbar-item">Auspiciadores</a>
-      <div class="navbar-item">
-        <a href="/registro/" class="button is-danger is-rounded">
+      <a class="navbar-item" onclick="showModal()">
+        <button class="button is-danger is-rounded">
             <span class="icon">
                 <i class="fas fa-ticket-alt"></i>
             </span>
-            <span>Entradas</span>
-        </a>
-      </div>
+            <span>Registro cerrado</span>
+        </button>
+      </a>
     </div>
   </div>
 </nav>
     <%= yield %>
+
+<div class="modal" id="modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">El registro está cerrado</p>
+      <button class="delete" aria-label="close" onclick="closeModal()"></button>
+    </header>
+    <section class="modal-card-body">
+      <p>¡Gracias por tu interés en el evento! Ya hemos llenado los espacios disponibles pero nos reunimos cada Miércoles a las 7pm en el <a href="https://www.google.com/maps/place/Cafe+Cultural+Space+Blood+and+Wood/@-16.509178,-68.1307427,17z/data=!3m1!4b1!4m5!3m4!1s0x915f20630bee72d9:0x2119fceb9662a6dd!8m2!3d-16.509178!4d-68.128554" target="_blank">Café Sangre y Madera</a> en Sopocachi.</p>
+    </section>
+  </div>
+</div>
 
 
     <footer class="footer has-background-dark has-text-light has-text-centered">

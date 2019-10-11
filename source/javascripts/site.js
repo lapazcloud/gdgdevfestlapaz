@@ -1,5 +1,15 @@
 "use strict";
 
+function showModal() {
+  var modal = document.getElementById('modal');
+  modal.classList.add('is-active');
+}
+
+function closeModal() {
+  var modal = document.getElementById('modal');
+  modal.classList.remove('is-active');
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"), 0); // Check if there are any navbar burgers
